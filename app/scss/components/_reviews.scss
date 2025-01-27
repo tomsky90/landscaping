@@ -82,6 +82,7 @@
 
     @include view(mobile) {
       flex-direction: column;
+      padding: 25px 25px 100px;
     }
   }
 
@@ -92,6 +93,7 @@
     @include view(mobile) {
       top: 20px;
       right: 20px;
+      width: 40px;
     }
   }
 
